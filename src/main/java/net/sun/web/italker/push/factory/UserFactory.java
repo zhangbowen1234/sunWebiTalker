@@ -9,8 +9,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author qiujuer Email:qiujuer@live.cn
- * @version 1.0.0
+ * 用户信息操作
  */
 public class UserFactory {
     // 通过Token字段查询用户信息
@@ -197,7 +196,7 @@ public class UserFactory {
     private static String encodePassword(String password) {
         // 密码去除首位空格
         password = password.trim();
-        // 进行MD5非对称加密，加盐会更安全，盐也需要存储
+        // 进行MD5非对称加密，加密会更安全，加密也需要存储
         password = TextUtil.getMD5(password);
         // 再进行一次对称的Base64加密，当然可以采取加盐的方案
         return TextUtil.encodeBase64(password);
