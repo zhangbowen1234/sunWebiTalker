@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@localhost" uuid="7ca43bc6-3027-44e8-8c43-5461e3a33bc2">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    <data-source name="DB_I_T_PUSH@localhost" uuid="7ca43bc6-3027-44e8-8c43-5461e3a33bc2">
+      <database-info product="MySQL" version="5.7.20-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <first-sync>true</first-sync>
       <user-name>root</user-name>
