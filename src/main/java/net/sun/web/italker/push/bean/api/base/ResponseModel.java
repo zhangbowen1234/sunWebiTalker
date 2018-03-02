@@ -6,8 +6,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
- * @author qiujuer Email:qiujuer@live.cn
- * @version 1.0.0
+ * 基本的接口返回Model封装
  */
 public class ResponseModel<M> implements Serializable {
     // 成功
