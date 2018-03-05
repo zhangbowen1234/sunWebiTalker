@@ -6,9 +6,6 @@ import net.sun.web.italker.push.bean.db.User;
 
 /**
  * 用户更新信息，完善信息的Model
- *
- * @author qiujuer Email:qiujuer@live.cn
- * @version 1.0.0
  */
 public class UpdateInfoModel {
     @Expose
