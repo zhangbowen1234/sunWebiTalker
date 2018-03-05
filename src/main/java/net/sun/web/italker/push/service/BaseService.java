@@ -12,6 +12,7 @@ import javax.ws.rs.core.SecurityContext;
 public class BaseService {
     // 添加一个上下文注解，该注解会给securityContext赋值
     // 具体的值为我们的拦截器中所返回的SecurityContext
+    // protected 子类必须继承父类才能调到
     @Context
     protected SecurityContext securityContext;
 

@@ -16,9 +16,6 @@ import java.security.Principal;
 
 /**
  * 用于所有的请求的接口的过滤和拦截ø(注册登录除外)
- *
- * @author qiujuer Email:qiujuer@live.cn
- * @version 1.0.0
  */
 @Provider
 public class AuthRequestFilter implements ContainerRequestFilter {
@@ -48,7 +45,7 @@ public class AuthRequestFilter implements ContainerRequestFilter {
                     @Override
                     public Principal getUserPrincipal() {
                         // User 实现 Principal接口
-                        return (Principal) self;
+                        return self;
                     }
 
                     @Override
@@ -60,7 +57,7 @@ public class AuthRequestFilter implements ContainerRequestFilter {
 
                     @Override
                     public boolean isSecure() {
-                        // 默认false即可，HTTPS
+                        // 默认false即可，检查HTTPS
                         return false;
                     }
 
