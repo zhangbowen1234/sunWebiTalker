@@ -73,7 +73,7 @@ public class UpdateInfoModel {
     }
 
     public static boolean check(UpdateInfoModel model) {
-        // Model 不允许为null，
+        // 请求Model，判断是否合法 不允许为null，
         // 并且只需要具有一个及其以上的参数即可
         return model != null
                 && (!Strings.isNullOrEmpty(model.name) ||

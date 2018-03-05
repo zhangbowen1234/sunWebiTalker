@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.security.Principal;
 
 /**
- * 用于所有的请求的接口的过滤和拦截ø
+ * 用于所有的请求的接口的过滤和拦截ø(注册登录除外)
  *
  * @author qiujuer Email:qiujuer@live.cn
  * @version 1.0.0
