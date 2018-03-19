@@ -1,6 +1,5 @@
 package net.sun.web.italker.push;
 
-import com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider;
 import net.sun.web.italker.push.provider.GsonProvider;
 import net.sun.web.italker.push.service.AccountService;
 import org.glassfish.jersey.server.ResourceConfig;
@@ -8,7 +7,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 import java.util.logging.Logger;
 
 /**
- * @author qiujuer
+ *
  */
 public class Application extends ResourceConfig{
     public Application(){
