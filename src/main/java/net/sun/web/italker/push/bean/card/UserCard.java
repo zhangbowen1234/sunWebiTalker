@@ -6,8 +6,7 @@ import net.sun.web.italker.push.bean.db.User;
 import java.time.LocalDateTime;
 
 /**
- * @author qiujuer Email:qiujuer@live.cn
- * @version 1.0.0
+ * 用户Card
  */
 public class UserCard {
     @Expose
