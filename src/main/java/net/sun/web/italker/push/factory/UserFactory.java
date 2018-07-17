@@ -42,7 +42,7 @@ public class UserFactory {
                 .uniqueResult());
     }
 
-    // 通过Id找到User
+    // 通过Name找到User
     public static User findById(String id) {
         // 通过Id查询，更方便
         return Hib.query(session -> session.get(User.class, id));
@@ -213,6 +213,7 @@ public class UserFactory {
         return TextUtil.encodeBase64(password);
     }
 
+
     /**
      * 获取我的联系人的列表
      *
@@ -221,21 +222,17 @@ public class UserFactory {
      */
     public static List<User> contacts(User self) {
         return Hib.query(session -> {
-            // 懒加载
             // 重新加载一次用户信息到self中，和当前的session绑定
             session.load(self, self.getId());
 
             // 获取我关注的人
             Set<UserFollow> flows = self.getFollowing();
 
-//            List<User> users = new ArrayList<>();
-//            for (UserFollow flow : flows) {
-//                users.add(flow.getTarget());
-//            }
             // 使用简写方式
             return flows.stream()
                     .map(UserFollow::getTarget)
                     .collect(Collectors.toList());
+
         });
     }
 
@@ -260,7 +257,7 @@ public class UserFactory {
             session.load(target, target.getId());
 
             // 我关注人的时候，同时他也关注我，
-            // 所有需要添加条UserFollow数据
+            // 所有需要添加两条UserFollow数据
             UserFollow originFollow = new UserFollow();
             originFollow.setOrigin(origin);
             originFollow.setTarget(target);
@@ -268,20 +265,21 @@ public class UserFactory {
             originFollow.setAlias(alias);
 
             // 发起者是他，我是被关注的人的记录
-            UserFollow tagetFollow = new UserFollow();
-            tagetFollow.setOrigin(origin);
-            tagetFollow.setTarget(target);
+            UserFollow targetFollow = new UserFollow();
+            targetFollow.setOrigin(target);
+            targetFollow.setTarget(origin);
 
             // 保存数据库
             session.save(originFollow);
-            session.save(tagetFollow);
+            session.save(targetFollow);
 
             return target;
         });
     }
 
+
     /**
-     * 查询俩个人是否已经关注
+     * 查询两个人是否已经关注
      *
      * @param origin 发起者
      * @param target 被关注人
@@ -289,10 +287,10 @@ public class UserFactory {
      */
     public static UserFollow getUserFollow(final User origin, final User target) {
         return Hib.query(session -> (UserFollow) session
-                .createQuery("from UserFollow where originId = :originId and targetId = : targetId")
+                .createQuery("from UserFollow where originId = :originId and targetId = :targetId")
                 .setParameter("originId", origin.getId())
-                .setParameter("originId", target.getId())
-                .setMaxResults(1) // 返回1
+                .setParameter("targetId", target.getId())
+                .setMaxResults(1)
                 // 唯一查询返回
                 .uniqueResult());
     }
@@ -308,13 +306,15 @@ public class UserFactory {
         if (Strings.isNullOrEmpty(name))
             name = ""; // 保证不能为null的情况，减少后面的一下判断和额外的错误
         final String searchName = "%" + name + "%"; // 模糊匹配
-        return Hib.query((Session session) -> {
+
+        return Hib.query(session -> {
             // 查询的条件：name忽略大小写，并且使用like（模糊）查询；
-            // 头像和描述必须完善才能查到
+            // 头像和描述必须完善才能查询到
             return (List<User>) session.createQuery("from User where lower(name) like :name and portrait is not null and description is not null")
                     .setParameter("name", searchName)
                     .setMaxResults(20) // 至多20条
                     .list();
+
         });
     }
 }

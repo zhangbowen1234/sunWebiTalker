@@ -57,7 +57,7 @@ public class AuthRequestFilter implements ContainerRequestFilter {
 
                     @Override
                     public boolean isSecure() {
-                        // 默认false即可，检查HTTPS
+                        // 默认false即可，HTTPS
                         return false;
                     }
 

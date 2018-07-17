@@ -20,7 +20,7 @@ import java.util.Set;
  */
 @Entity
 @Table(name = "TB_USER")
-public class User implements Principal{
+public class User implements Principal {
 
     // 这是一个主键
     @Id
