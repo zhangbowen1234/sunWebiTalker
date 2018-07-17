@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34a2e35-513f-41c6-9eb1-11be03af9b58" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/Application.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/api/account/AccountRspModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/api/account/LoginModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/api/account/RegisterModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/api/base/ResponseModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/api/user/UpdateInfoModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/card/UserCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/Apply.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/Group.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/GroupMember.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/Message.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/PushHistory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/bean/db/UserFollow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/factory/UserFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/provider/AuthRequestFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/provider/AuthRequestFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/provider/GsonProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/provider/LocalDateTimeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/service/AccountService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/service/BaseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/utils/Hib$Query.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/utils/Hib$QueryOnly.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/utils/Hib.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/java/main/net/sun/web/italker/push/utils/TextUtil.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gexin_platform_gexin_rp_fastjson_1_0_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gexin_platform_gexin_rp_sdk_base_4_0_0_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gexin_platform_gexin_rp_sdk_http_4_0_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gexin_platform_gexin_rp_sdk_template_4_0_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/utils/PushDispatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/net/sun/web/italker/push/service/UserService.class" afterPath="$PROJECT_DIR$/build/classes/main/net/sun/web/italker/push/service/UserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___suniTalker___suniTalker_1_0_SNAPSHOT_war__exploded_.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___suniTalker___suniTalker_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/suniTalker_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/suniTalker_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/suniTalker_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/suniTalker_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/db/User.java" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/db/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/factory/UserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/factory/UserFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/AuthRequestFilter.java" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/AuthRequestFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/AccountService.java" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/AccountService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -95,41 +73,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="PushDispatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/utils/PushDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/card/UserCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/db/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1039">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/factory/UserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+            <state relative-caret-position="137">
+              <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -137,11 +97,24 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>2</find>
-      <find>2002</find>
       <find>Transactional</find>
+      <find>batch.add</find>
+      <find>2002</find>
+      <find>1</find>
+      <find>1007</find>
+      <find>100</find>
+      <find>1000</find>
+      <find>10007</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -330,7 +303,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3039772899110" />
+        <entry key="$PROJECT_DIR$" value="3051698225545" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1071688957" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -517,6 +491,8 @@
         <option value="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/AuthRequestFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/GsonProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/LocalDateTimeConverter.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/utils/PushDispatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java" />
       </list>
     </option>
@@ -530,9 +506,9 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" value="" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
@@ -623,7 +599,11 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="push" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -650,6 +630,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="push" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suniTalker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sunWebiTalker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="push" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1185,12 +1199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527218591255</updated>
       <workItem from="1527218597658" duration="1722000" />
-      <workItem from="1531793135948" duration="7655000" />
+      <workItem from="1531793135948" duration="13139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9377000" />
+    <option name="totallyTimeSpent" value="14861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1208,7 +1222,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.49784017" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1219,14 +1233,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41118014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41118014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25431967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1253,18 +1267,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java</url>
-          <line>70</line>
+          <line>53</line>
           <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1480,10 +1488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#2784#2785#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1494,14 +1499,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1632,17 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/api/base/PushModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1091#1092#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1778,56 +1764,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/AuthRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/GsonProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/LocalDateTimeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/api/base/ResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#2784#2785#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/factory/UserFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/card/UserCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/api/base/PushModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1840,18 +1807,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/card/UserCard.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="28" />
+        <state relative-caret-position="257">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/AuthRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/GsonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/provider/LocalDateTimeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/factory/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2173">
+          <caret line="222" column="29" lean-forward="false" selection-start-line="222" selection-start-column="29" selection-end-line="222" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/utils/PushDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/bean/api/base/ResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-725">
+          <caret line="123" column="39" lean-forward="false" selection-start-line="123" selection-start-column="39" selection-end-line="123" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/sun/web/italker/push/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        <state relative-caret-position="137">
+          <caret line="86" column="42" lean-forward="true" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
           <folding />
         </state>
       </provider>
