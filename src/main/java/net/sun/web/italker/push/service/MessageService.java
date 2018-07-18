@@ -1,22 +1,18 @@
 package net.sun.web.italker.push.service;
 
-import jdk.nashorn.internal.objects.NativeUint8Array;
 import net.sun.web.italker.push.bean.api.base.ResponseModel;
 import net.sun.web.italker.push.bean.api.message.MessageCreateModel;
-import net.sun.web.italker.push.bean.api.user.UpdateInfoModel;
 import net.sun.web.italker.push.bean.card.MessageCard;
-import net.sun.web.italker.push.bean.card.UserCard;
 import net.sun.web.italker.push.bean.db.Group;
 import net.sun.web.italker.push.bean.db.Message;
 import net.sun.web.italker.push.bean.db.User;
+import net.sun.web.italker.push.factory.GroupFactory;
 import net.sun.web.italker.push.factory.MessageFactory;
 import net.sun.web.italker.push.factory.PushFactory;
 import net.sun.web.italker.push.factory.UserFactory;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * 消息推送的入口
@@ -66,9 +62,18 @@ public class MessageService extends BaseService {
     }
 
     // 发送到群
-    private ResponseModel<MessageCard> pushToGroup(User self, MessageCreateModel model) {
-        //   TODO     Group group = GroupFactory.findById(model.getReceiverId());
-        return null;
+    private ResponseModel<MessageCard> pushToGroup(User sender, MessageCreateModel model) {
+        //  找群是有权限性质的
+        Group group = GroupFactory.findById(sender,model.getReceiverId());
+        if (group==null){
+            // 没有找到接收群，有可能你不是群的成员
+            return ResponseModel.buildNotFoundUserError("Can't find receiver group");
+        }
+
+        // 添加到数据库
+        Message message = MessageFactory.add(sender,group,model);
+        // 走通用的推送逻辑
+        return buildAndPushResponse(sender,message);
     }
 
     // 推送并构建一个返回
@@ -77,10 +82,8 @@ public class MessageService extends BaseService {
             // 存储数据库失败
             return ResponseModel.buildCreateError(ResponseModel.ERROR_CREATE_GROUP);
         }
-
         // 进行推送
-        PushFactory.pushNewMessage( sender, message);
-
+        PushFactory.pushNewMessage(sender, message);
         // 返回
         return ResponseModel.buildOk(new MessageCard(message));
     }

@@ -26,10 +26,6 @@ public class MessageCreateModel {
     @Expose
     private int type = Message.TYPE_STR;
 
-    // 发送者 不为空
-    @Expose
-    private String senderId;
-
     // 接收者 可为空
     @Expose
     private String receiverId;
@@ -70,14 +66,6 @@ public class MessageCreateModel {
         this.type = type;
     }
 
-    public String getSenderId() {
-        return senderId;
-    }
-
-    public void setSenderId(String senderId) {
-        this.senderId = senderId;
-    }
-
     public String getReceiverId() {
         return receiverId;
     }
@@ -98,7 +86,6 @@ public class MessageCreateModel {
     public static boolean check(MessageCreateModel model) {
         return model != null
                 && !(Strings.isNullOrEmpty(model.id)
-                || Strings.isNullOrEmpty(model.senderId)
                 || Strings.isNullOrEmpty(model.content)
                 || Strings.isNullOrEmpty(model.receiverId))
 
